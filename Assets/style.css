@@ -1,0 +1,181 @@
+.container{
+    margin: 0px 20%;
+    max-width: 60vw;
+    overflow: hidden;
+}
+
+.inline_block{
+    display: inline-block;
+}
+
+.signature__logo{
+    background-color: black;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 1px;
+}
+
+.signature__name{
+    width: 150px;
+    height: 25px;
+    font-size: 15px;
+}
+
+.ref{
+    margin-left: calc(100% - 250px);
+}
+
+.intro__img{
+    width: 30%;
+    position: relative;
+}
+
+.intro__text{
+    position: absolute;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.intro__text p{
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 10px;
+}
+
+.intro__text h2{
+    margin: 0;
+}
+
+.intro__skills{
+    margin-top: 30px;
+}
+
+.intro__skills .inline_block{
+    margin-right: 30px;
+}
+
+.intro__skills h3{
+    margin-bottom: 0;
+    color: #f26666;
+}
+
+.intro__skills p{
+    margin-bottom: 0;
+    font-size: xx-small;
+}
+
+.about{
+    margin-top: 20px;
+}
+
+.title{
+    font-size: 8px;
+    color: black;
+    border-bottom: #f26666 solid 2px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    max-width: fit-content;
+}
+
+.about .about__content{
+    font-size: 12px;
+}
+
+.about .download__resume{
+    width: 150px;
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: calc(50% - 75px);
+    border-radius: 19px;
+    color:#f26666;
+    padding: 8px 20px;
+    border: 1px solid #f26666;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.about .download__resume:hover{
+    border: 1px solid #ffc8c8;
+    color:#ffc8c8;
+}
+
+.skills{
+    margin-top: 60px;
+}
+
+.skills_bubble{
+    font-size: 12px;
+    width: fit-content;
+    padding: 3px 12px;
+    border: 1px solid rgb(88, 88, 88);
+    border-radius: 20px;
+    margin-right: 2px;
+    margin-bottom: 6px;
+}
+
+.skills_bubble:hover{
+    border: 1px solid rgb(0, 18, 155);
+    background-color: rgb(0, 18, 155);
+    color: whitesmoke;
+    cursor: progress;
+}
+
+.skills .core_skills{
+    max-width: 50%;
+}
+
+.core_skills__list{
+    padding: 0px;
+    margin: 0px;
+}
+
+.skills .other_skills{
+    width: 50%;
+    max-width: calc(50% - 20px);
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.skills .other_skills__list{
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.work_experience{
+    margin-top: 55px;
+}
+
+/* I can't use flexbox so please spare me with these makeshift css :< */
+
+.position1{
+    font-size: 10px;
+    max-width: 49%;
+    position: absolute;
+    max-width: 25%;
+}
+
+.position2{
+    font-size: 10px;
+    max-width: 50%;
+    margin-left: 50%;
+    margin-top: 0px;
+}
+
+.position__jd ul{
+    padding-left: 7px;
+}
+
+.position__jd li{
+    list-style-position: outside;
+    padding-left: 8px;
+}
+
+.position__company{
+    font-size: 15px;
+}
